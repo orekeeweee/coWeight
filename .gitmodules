@@ -1,0 +1,6 @@
+[submodule "data/raw/CowDB"]
+	path = data/raw/CowDB
+	url = https://github.com/ruchaya/CowDB.git
+[submodule "data/raw/CowDatabase2"]
+	path = data/raw/CowDatabase2
+	url = https://github.com/ruchaya/CowDatabase2.git
