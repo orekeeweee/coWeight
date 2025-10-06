@@ -3,8 +3,9 @@ import csv
 import re
 import sys
 
-RAW_DIR = Path("/Users/oreo/Desktop/My Folder/UC Berkeley/Projects/coWeight/data/raw")
-OUT_CSV = Path("/Users/oreo/Desktop/My Folder/UC Berkeley/Projects/coWeight/data/metadata/inventory.csv")
+BASE = Path(__file__).resolve().parent.parent
+RAW_DIR = BASE / "data" / "raw"
+OUT_CSV = BASE / "data" / "metadata" / "inventory.csv"
 
 VIEWS = ["left", "right", "top"]
 

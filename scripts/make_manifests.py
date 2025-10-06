@@ -4,7 +4,7 @@ import csv
 import pandas as pd
 
 # ---------- CONFIG ----------
-BASE = Path("/Users/oreo/Desktop/My Folder/UC Berkeley/Projects/coWeight")
+BASE = Path(__file__).resolve().parent.parent
 RAW_DIR = BASE / "data" / "raw"
 UNIFIED_DIR = BASE / "data" / "unified"
 META_DIR = BASE / "data" / "metadata"
